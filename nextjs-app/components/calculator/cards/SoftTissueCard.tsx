@@ -51,7 +51,7 @@ export default function SoftTissueCard({ register, watch, disabled }: SoftTissue
                   {...register('softTissue.knowsBills')}
                   className="w-4 h-4"
                 />
-                <span className="text-sm">No - I'll estimate</span>
+                <span className="text-sm">No - I&apos;ll estimate</span>
               </label>
               <label className="flex items-center gap-2 cursor-pointer">
                 <input

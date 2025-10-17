@@ -51,7 +51,7 @@ export function calculateEstimate(input: CalculatorInput): CalculationBreakdown 
   // 4 Diagnostics
   totals.diagnostics = 0;
   if (input.diagnostics.enabled === 'yes') {
-    const add = (count = 0, cfg: any, method: 'multiplier'|'flat') =>
+    const add = (count = 0, cfg: { perStudy: readonly [number, number]; perStudyMultiplier: readonly [number, number]; flat: readonly [number, number] }, method: 'multiplier'|'flat') =>
       count
         ? method === 'multiplier'
           ? count * p(cfg.perStudy) * p(cfg.perStudyMultiplier)

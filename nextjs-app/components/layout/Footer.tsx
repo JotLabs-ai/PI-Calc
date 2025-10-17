@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="text-xs leading-relaxed max-w-4xl mx-auto bg-gray-800 p-6 rounded-lg">
               <p className="font-semibold mb-3 text-white">Disclaimer:</p>
               <p className="text-gray-300">
-                Personal injury calculator ("PIC") is an estimate of the value of a given personal
+                Personal injury calculator (&quot;PIC&quot;) is an estimate of the value of a given personal
                 injury matter. It is not a guarantee that if you retain Browne Law Group that your
                 case will have the exact or approximate value displayed by this PIC. The PIC also
                 does not consider whether the bad actor that injured you has insurance, funds, or

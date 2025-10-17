@@ -83,7 +83,7 @@ export default function CalculatorCar() {
           Car Accident Settlement Calculator
         </h2>
         <p className="text-center text-gray-600 mb-8">
-          Answer each question to enable the next section. Select "No" to skip or "Yes" to provide details.
+          Answer each question to enable the next section. Select &quot;No&quot; to skip or &quot;Yes&quot; to provide details.
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
